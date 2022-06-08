@@ -1,0 +1,37 @@
+{
+  "name": "create-sveltekit-auth0",
+  "version": "0.0.6",
+  "description": "A CLI tool to add Auth0 to you Sveltekit Project",
+  "main": "app.js",
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.22.0",
+    "inquirer": "^8.2.4",
+    "prepend-file": "^2.0.1"
+  },
+  "bin": {
+    "create-sveltekit-auth0": "app.js"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lcharleslaing/create-sveltekit-auth0"
+  },
+  "keywords": [
+    "sveltekit",
+    "svelte",
+    "auth0",
+    "authentication"
+  ],
+  "author": "Lee Charles Laing <big2tinydev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/iambig2tiny?fan_landing=true"
+  },
+  "homepage": "https://github.com/lcharleslaing/create-sveltekit-auth0"
+}
